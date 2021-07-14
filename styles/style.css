@@ -46,7 +46,7 @@ h5 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
