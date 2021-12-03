@@ -1,9 +1,4 @@
 :root {
-  --branding-color: #4b1f0e;
-  --secondary-color: #f7edde;
-  --tertiary-color: #8c7a6b;
-  --bcg-color: #fbf6ef;
-  --main-text: #342a1d;
   --heading-font-family: "Yusei Magic", sans-serif;
   --default-font-family: "Roboto", sans-serif;
 }
@@ -14,16 +9,16 @@
 
 body {
   font-family: var(--default-font-family);
-  background-color: var(--bcg-color);
+  background-color: #fffffe;
 }
 h1 {
   font-size: 96px;
-  color: var(--tertiary-color);
+  color: #716040;
 }
 
 h2 {
   font-size: 64px;
-  color: var(--branding-color);
+  color: #020826;
 }
 
 h4 {
@@ -45,11 +40,11 @@ h5 {
 }
 
 p {
-  color: black;
+  color: #716040;
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: #f9f4ef;
   text-align: center;
   padding: 220px;
   margin: 0;
@@ -69,16 +64,16 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: #8c7851;
   border-radius: 36px;
-  color: var(--bcg-color);
+  color: #fffffe;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 2px solid var(--branding-color);
+  color: #eaddcf;
+  border: 2px solid #8c7851;
   font-family: var(--default-font-family);
   border-radius: 36px;
   font-size: 18px;
@@ -119,12 +114,12 @@ p {
 }
 .content a:link {
   text-decoration: none;
-  color: var(--branding-color);
+  color: #020826;
 }
 
 .content a:visited {
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: #8c7851;
 }
 
 footer {
@@ -132,7 +127,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: #eaddcf;
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -144,16 +139,15 @@ footer .contact-box p {
 footer .email-link {
   text-decoration: none;
   font-family: var(--heading-font-family);
-  color: var(--tertiary-color);
+  color: #020826;
   font-size: 24px;
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: #fffffe;
+  background: #8c7851;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
 }
